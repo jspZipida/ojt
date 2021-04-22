@@ -1,0 +1,68 @@
+
+
+table{
+    border-radius: 1em;
+    border-collapse: collapse;
+    overflow: hidden;
+    width: 100%;
+}
+
+th{
+    background-color: purple;
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+    text-align: left;
+    height: 30px;
+
+}
+
+
+td {
+    text-align: left;
+    height: 30px;
+
+    padding: 8px;
+  }
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}
+
+
+.refresh{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    width: 100px;
+    height: 40px;
+    font: optional;
+    font-size: 20px;
+
+    color: gray;
+    border-radius: 5px;
+
+    
+
+    background-color: #ffffff;
+}
+
+.id{
+width: 10%;
+}
+
+.employee_name{
+width: 20%;
+}
+.employee_salary{
+width: 20%;
+}
+
+.employee_age{
+width: 10%;
+}
+
+.profile_image{
+width: 20%;
+}

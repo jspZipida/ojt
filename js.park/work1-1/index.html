@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <title>Todo APP</title>
+</head>
+<body>
+  <div class="root" id="root" >
+    <div class="title" id="title">
+      <h1>
+        ToDo App
+      </h1>
+      <br>
+    </div>
+    <div class="addSection">
+      <div class="addSectionTitle">
+        <h3>
+          ADD ITEM
+        </h3>
+        <hr>
+      </div>
+      <div class="addSectionForm">
+        <form class="toDoAddForm">
+          <input type="text" id="toDoinput" placeholder="input todo list!">
+          <input type="button" id="toDoAdd" value="Add">
+        </form>
+        <br>
+      </div>
+    </div>
+    
+    <div class="viewSection">
+      <div class="viewSectionTitle">
+        <h3>TODO</h3>
+        <hr>
+      </div>
+      <div class="viewSectionForm">
+        <div class="toDoListView" id="toDoListView">
+          <p id='toDolist'></u>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

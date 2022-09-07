@@ -1,0 +1,19 @@
+#root {
+  display: block;
+  width: 400px;
+  margin: 100px auto 0;
+}
+
+#addBox{
+  padding-top: 40px;
+  border-bottom: solid 2px black;
+}
+
+#textBox{
+  padding-top: 10px;
+}
+
+#button1{
+  width: 30px;
+  height: 18px;
+}

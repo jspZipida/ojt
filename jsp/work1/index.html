@@ -14,10 +14,16 @@
       <h2>ADD ITEM</h2>
     </div>
     <div id="textBox">
-      <input /><button id="button1"></button>
+      <input id="itemText" onkeyup="if(window.event.keyCode==13){insertItem(insertItemText.value)}"/>
+      <button id="button1" onclick="insertItem(insertItemText.value)">save</button>
     </div>
+
+
+    <h2>TODO</h2>
     <div id="todoBox">
-      <h2>ADD ITEM</h2>
+      <ul id="list">
+
+      </ul>
     </div>
   </div>
 
